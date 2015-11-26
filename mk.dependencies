@@ -1,0 +1,10 @@
+[
+  {
+    "repository": "android_vendor_sony_z3dual",
+    "target_path": "vendor/sony/z3dual"
+  },
+  {
+    "repository": "android_device_sony_z3",
+    "target_path": "device/sony/z3"
+  }
+]

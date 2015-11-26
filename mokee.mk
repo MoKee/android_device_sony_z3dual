@@ -1,8 +1,8 @@
-# Inherit CM common Phone stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit MK common Phone stuff.
+$(call inherit-product, vendor/mk/config/common_full_phone.mk)
 
 # Enhanced NFC
-$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/mk/config/nfc_enhanced.mk)
 
 $(call inherit-product, device/sony/z3dual/full_z3dual.mk)
 
@@ -10,5 +10,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=D6633
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_FINGERPRINT=Sony/D6633/D6633:5.1.1/23.4.A.0.546/864948651:user/release-keys
 PRODUCT_BUILD_PROP_OVERRIDES += PRIVATE_BUILD_DESC="D6633-user 5.1.1 23.4.A.0.546 864948651 release-keys"
 
-PRODUCT_NAME := cm_z3dual
+PRODUCT_NAME := mk_z3dual
 PRODUCT_DEVICE := z3dual
